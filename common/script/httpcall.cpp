@@ -138,7 +138,7 @@ namespace {
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, req.followRedirects ? 1L : 0L);
         curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Checkpoint-curl");
+        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Checkpoint-WebDAV");
         curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 300L);
         curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 10L);
     }
